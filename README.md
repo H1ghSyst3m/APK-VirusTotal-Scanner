@@ -8,12 +8,15 @@ The APK VirusTotal Scanner is a Python-based tool designed for the automated sca
 - **Multiple API Support:** Can be used with multiple API keys from VirusTotal for load balancing and rate limit management.
 - **Integration with Mihon Extension APKs:** Specifically designed to download and scan APKs from the [Mihon Extension repository](https://github.com/keiyoushi/extensions).
 - **Result Storage:** Scanning results are stored in a JSON file for easy access and analysis.
-- **Web Interface for Results:** A dedicated webpage is available to display scan results, accessible [here](https://h1ghsyst3m.github.io/keiyoushi-scans/).
+
 
 ## How It Works
 1. **APK Retrieval:** The `git-downloader.py` script clones or updates the Mihon Extension repository and transfers new APKs to the local `apk` folder.
 2. **Scanning Process:** The `vt-apk-scanner.py` script scans each APK file using the VirusTotal API and records the results.
 3. **Results Handling:** The scanning results are saved in `virus_total_results.json`, providing details such as scan date, detected threats, and file attributes.
+
+## WebPage
+- **WebPage for Results:** A dedicated webpage is available to display scan results from keiyoushi-extensions, accessible [here](https://h1ghsyst3m.github.io/keiyoushi-scans/).
 
 ## Setup and Usage
 - Ensure you have Python installed on your system.
