@@ -23,7 +23,9 @@ The APK VirusTotal Scanner is a Python-based tool designed for the automated sca
 - Clone this repository and navigate to the project directory.
 - Install necessary Python packages listed in `requirements.txt`.
 - Add your VirusTotal API keys to the `vt-apk-scanner.py` script.
-- Run `starter.bat` to initiate the downloading and scanning process.
+- Run `starter.bat` or `starter.sh` to initiate the downloading and scanning process.
+
+- The `vt-apk-scanner.py` script first looks if the file was already scanned, if yes then it retrieves the results, if no then it uploads the file. After the script is completed, then run it again to retrieve the results that it uploaded before.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/H1ghSyst3m/apk-virustotal-scanner/blob/main/LICENSE) file for details.
