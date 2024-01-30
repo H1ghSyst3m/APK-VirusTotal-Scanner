@@ -16,7 +16,7 @@ The APK VirusTotal Scanner is a Python-based tool designed for the automated sca
 3. **Results Handling:** The scanning results are saved in `virus_total_results.json`, providing details such as scan date, detected threats, and file attributes.
 
 ## WebPage
-- **WebPage for Results:** A dedicated webpage is available to display scan results from keiyoushi-extensions, accessible [here](https://h1ghsyst3m.github.io/keiyoushi-scans/).
+- **keiyoushi Extension Results:** A dedicated webpage is available to display scan results from keiyoushi-extensions, accessible [here](https://h1ghsyst3m.github.io/keiyoushi-scans/).
 
 ## Setup and Usage
 - Ensure you have Python installed on your system.
